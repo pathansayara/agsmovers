@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interenational Removals Company | AGS International Movers</title>
+    <!-- ==============Favicon ================ -->
+    <link rel="icon" type="image/png" href="./img/removals_logo.png">
     <!-- ===========Bootstrap CDN============ -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -13,13 +15,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- ====== Custom CSS================== -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
 
 
-    <header>
-        <!-- ============Tophead ============= -->
+    <!-- =================Header Section start================ -->
+    <header class="fixed-top">
+        <!-- ==============Tophead section start================ -->
         <div class="tophead">
             <div class="container">
                 <div class="row">
@@ -34,14 +38,14 @@
                         </div>
                         <div class="rightgroup">
                             <ul class="list-unstyled d-flex">
-                                <li><a href=""><i class="fa-regular fa-handshake"></i>Careers</a></li>
-                                <li><a href=""><i class="fa-regular fa-credit-card"></i>Payments</a></li>
-                                <li><a href=""><i class="fa-solid fa-user"></i>Log In</a></li>
+                                <li><a href=""><i class="fa-regular fa-handshake px-2"></i>Careers</a></li>
+                                <li><a href=""><i class="fa-regular fa-credit-card  px-2"></i>Payments</a></li>
+                                <li><a href=""><i class="fa-solid fa-user  px-2"></i>Log In</a></li>
                                 <li><select id="country" name="country">
-                                        <option value="volvo">Volvo</option>
-                                        <option value="saab">Saab</option>
-                                        <option value="fiat">Fiat</option>
-                                        <option value="audi">Audi</option>
+                                        <option value="volvo">English</option>
+                                        <option value="saab">Francies</option>
+                                        <option value="fiat">Dutch</option>
+                                        <option value="audi">Dutch</option>
                                     </select></li>
                             </ul>
                         </div>
@@ -49,14 +53,16 @@
                 </div>
             </div>
         </div>
+        <!-- ==============Tophead section End=================== -->
 
-        <nav class="navbar navbar-expand-lg  ">
+        <!-- ==================Navbar section star================= -->
+        <nav class="navbar navbar-expand-lg bg-white ">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><img src="./img/removals_logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon "></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
@@ -64,21 +70,21 @@
                             <a class="nav-link active text-dark" aria-current="page" href="index.html">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">CHOOSING AGS</a>
+                            <a class="nav-link text-dark " href="#">CHOOSING AGS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">OUR SERVICES</a>
-                        </li>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">OUR NETWORK</a>
+                            <a class="nav-link text-dark " href="#">OUR SERVICES</a>
                         </li>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">NEWS</a>
+                            <a class="nav-link text-dark " href="#">OUR NETWORK</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark " href="#">NEWS</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link text-dark" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link text-dark " href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 CONTACT
                             </a>
@@ -96,90 +102,141 @@
                 </div>
             </div>
         </nav>
+        <!-- ==================Navbar section end=================== -->
     </header>
+    <!-- =================Header Section end================ -->
 
 
-    <!-- Slider Section Start -->
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+    <!--=================== Slider Section Start==============-->
+    <section class="Banner">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./img/slider1-man-wrapping-glass.jpg" class="d-block w-100 slider" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h3 class="py-2">Get a quote with a virtual visit</h3>
+                        <p class="pb-2"> Some representative placeholder content for the first slide.</p>
+                        <a href="" class="find_branch_btn">FIND A BRANCH</a>
+                        <a href="" class="get_btn">GET A QUATE</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./img/slider2-men-covering-table.jpg" class="d-block w-100 slider" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h3 class="py-2">Our unique network</h3>
+                        <p class="text-center py-2">To better serve you, we offer seamless service experiences
+                            worldwide. <br> Our network covers 146 locations across 97 countries.</p>
+                        <a href="" class="find_branch_btn">FIND A BRANCH</a>
+                        <a href="" class="get_btn">GET A QUATE</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./img/slider3-virtual-visit5.png" class="d-block w-100 slider" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h3 class="py-2">The excellence of our staff</h3>
+                        <p class="text-center py-2">Packing is our unparalleled expertise. AGS packers are trained on
+                            specific techniques to ensure all <br> your items arrive in pristine condition.</p>
+                        <a href="" class="find_branch_btn">FIND A BRANCH</a>
+                        <a href="" class="get_btn">GET A QUATE</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
-                <img src="./img/slider1-man-wrapping-glass.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/slider2-men-covering-table.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/slider3-virtual-visit5.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    </section>
 
-    <!-- Slider Section End -->
+    <!-- =================Slider Section End ===================-->
 
-    <!-- ============International removal starts -->
+
+    <!-- ============International removal section starts =================-->
     <section class="international_removal">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 interbox d-block mx-auto text-center">
-                    <h1 class="text-danger"> INTERNATIONAL REMOVALS & STORAGE</h1>
+                <div class="col-md-10 interbox d-block mx-auto text-center ">
+                    <h1 class="text-danger py-4"> INTERNATIONAL REMOVALS & STORAGE</h1>
                     <p class="fw-bold mx-5">“Pioneer in the mobility industry, AGS International Movers, is now one of
                         its global leaders, as a result of the innovative vision of its board for the last forty years”
                         “We provide tailor-made <a href="javascript:void()" class="text-danger">services in
                             international removals</a> and <a href="" class="text-danger">secure storage</a>.”</p>
+                    <h4><a href="" class="text-danger">We Offer advice and excellent service on 5 continent.</a></h4>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ============International removal end -->
+    <!-- ============International removal section end ===========================-->
 
-    <!-- ====== IndivisualCorporation section start -->
-    <div class="container">
-        <div class="row mt-5">
-           <div class="col-md-9 d-block mx-auto">
-            <div class="row">
+
+    <!-- ================ Indivisual Corporation section start ====================-->
+    <section class="indivisual_corporation">
+        <div class="container py-5">
+            <div class="row ">
                 <div class="col-md-6">
-                    <p class="text-justify">Our unique network enables us to offer you a comprehensive hassle-free solution to move with peace of
-                        mind. With our expertise as international movers for the past 49 years, we manage each step of your
-                        international move from your departure to your destination.</p>
+                    <div class="card"
+                        style="width: 35rem; border-right: 1px dotted rgb(122, 122, 122); border-top: none; border-bottom: none; border-left: none;">
+                        <img src="./img/ags-movers-individual-move-1.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-justify pb-2"><span class="fw-bold">Let us help you prepare for a
+                                    smooth and successful move.</span> Whether you
+                                are moving from Africa to Asia or from England to the USA, we accompany you from
+                                departure to arrival. Our global network and local resources allow us to provide the
+                                highest quality services from start to finish.</p>
+                            <a href="#" class=" our_services_btn mx-2 ">SEE OUR SERVICES</a>
+                            <a href="#" class=" request_btn ">REQUEST A QOUTE</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <p class="text-justify">Our unique network enables us to offer you a comprehensive hassle-free solution to move with peace of
-                        mind. With our expertise as international movers for the past 49 years, we manage each step of your
-                        international move from your departure to your destination.</p>
+                <div class="col-md-6 ">
+                    <div class="card" style="width: 35rem; border: none;">
+                        <img src="./img/ags-movers-coporation.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+
+                            <p class="card-text text-justify pb-2"><span class="fw-bold">Our unmatched expertise is
+                                    integrated in a network operated by skilled
+                                    international specialists</span> who offer tailor-made solutions to meet corporate
+                                clients’
+                                specific needs. As a dynamic company, AGS always strives to deliver innovative solutions
+                                to all kind of organisations and businesses.</p>
+                            <a href="#" class=" request_btn mx-2">SEE OUR SOLUTION</a>
+                            <a href="#" class="  our_services_btn">CONTACT US</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-           </div>
         </div>
-    </div>
-    <!-- ====== IndivisualCorporation section end -->
+    </section>
+    <!-- ================== Indivisual Corporation section end ====================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- ============Bootstrap CDN=============== -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

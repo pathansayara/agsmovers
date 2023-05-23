@@ -1,0 +1,24 @@
+/* Media Query section start */
+
+@media only screen and(max-width: 1022px) {
+    header .tophead {
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 13px !important;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .carousel-inner .carousel-item .carousel-caption {
+        bottom: 9rem !important;
+    }
+
+    .carousel-indicators {
+        bottom: 8.5rem !important;
+    }
+}
+
+/* Media Query section end */
