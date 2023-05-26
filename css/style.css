@@ -45,6 +45,7 @@ header .tophead .leftgroup ul li a.active {
     display: inline-block;
 }
 
+
 header .tophead .leftgroup ul li a.active:hover {
     text-decoration: none;
 }
@@ -104,7 +105,9 @@ header .tophead .rightgroup ul li select {
 .carousel-inner .carousel-item img {
     animation: zoomin 20s infinite;
 }
-
+.navbar .navbar-brand .navbar-toggler .toggle-btn{
+    color: black;
+}
 @keyframes zoomin {
     from {
         transform: scale(1);
@@ -212,10 +215,10 @@ header .tophead .rightgroup ul li select {
    
 }
 
-.indivisual_corporation .card img:hover {
+/* .indivisual_corporation .card img:hover {
     transition: 5s;
     transform: scale(1.2);
-}
+} */
 
 
 /* Individual corporation section end */
@@ -224,20 +227,110 @@ header .tophead .rightgroup ul li select {
 .domestic img:hover{
     transform: scale(1.1);
 }
-
-.domestic a{
-    color: gray;
-    font-size: 0.8rem;
+.domestic-img h6{
+    padding-top: 1.4rem;
+}
+.domestic-img a{
+    font-size: small;
+    color: #949496;
+   
+    
+}
+#domestic{
+ background-color: #34313a;  
+}
+.domestic-text-white{
+    color: #fff;
+}
+ 
+.domestic-text{
+    color: #949496;
+}
+#domestic .domestic-img img:hover{
+  
+  transform: scale(1.06);
 }
 
 
+/* ========World======== */
+#world{
+    background: url(../img/client/removals_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+.free-quote-btn{
+    border: 2px solid rgb(158, 4, 4);
+    background-color:rgb(158, 4, 4);
+    padding: 0.5rem 1.4rem;
+    color: #fff;
+    font-weight: 300;
+}
+.free-quote-btn:hover{
+    background-color: #fff;
+    color: rgb(158, 4, 4);
+    font-weight: 500;
+}
+/* world end */
 
+/* Wolrdwide network starts */
 
+    .worlwide-map-img{
+        background: url(../img/network-map-ags-movers_1200X700-en.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .country-btn{
+        border: 2px solid rgb(158, 4, 4);
+        background-color:white;
+        padding: 0.5rem 1.4rem;
+        color:rgb(158, 4, 4);
+        font-weight: 300;
+    }
+    .country-btn:hover{
+        border: 2px solid rgb(158, 4, 4);
+        background-color:rgb(158, 4, 4);
+        color:#fff;
+        transition: all 0.5s ease-in-out;
+    }
+/* Wolrdwide network end*/
 
-
-
-
-
-
-
-
+/* footer section */
+#footer-section{
+    background-color: #34313a;
+}
+#footer-section h5{
+    color: #fff;
+}
+#footer-section a{
+    color: #949496;
+    font-size:14px;
+   
+}
+#footer-section a:hover{
+    text-decoration: underline;
+    color: rgb(199, 198, 198);
+}
+.get-c-btn{
+    background-color: rgb(158, 4, 4);
+    padding: 0.5rem 1rem;
+}
+#footer-section .social-icons .fa-brands{
+    color: #fff;
+    font-size: 25px;
+    padding: 2rem 0.5rem;   
+}
+#footer-section .social-icons .fa-brands:hover{
+   transform: scale(1.08);
+}
+.space{
+    width: 100%;
+    height: 2vh;
+    background-color: #fff;
+}
+/* footer section */
