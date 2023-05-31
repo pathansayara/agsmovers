@@ -134,9 +134,7 @@ header .tophead .rightgroup ul li .dropdown:hover .dropdown-menu{
     height: 470px;  
    
 }
-.navbar-nav .dropdown:hover .main-ags{
-  display: block;
-}
+
 .agsmenu .cross{
    background-color: #34313a;
     margin-left: 95%;
