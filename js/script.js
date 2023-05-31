@@ -1,14 +1,14 @@
 // Mega menu
-// function ags(){
-//   document.getElementById("main-ags").style.display="block";
+function ags(){
+  document.getElementById("main-ags").style.display="block";
 
 
-// }
-// function agsservice(){
-//     document.getElementById("main-ags-service").style.display="block";
+}
+function agsservice(){
+    document.getElementById("main-ags-service").style.display="block";
   
   
-//   }
+  }
 function crossnone(){
     document.getElementById("main-ags").style.display="none";
 }
