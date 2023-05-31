@@ -24,7 +24,7 @@
     <!-- =================Header Section start================ -->
     <header class="fixed-top">
         <!-- ==============Tophead section start================ -->
-         <div class="tophead">
+        <div class="tophead">
             <div class="container">
                 <div class="row">
                     <div class="d-flex justify-content-between">
@@ -41,22 +41,45 @@
                                 <li><a href=""><i class="fa-regular fa-handshake px-2"></i>Careers</a></li>
                                 <li><a href=""><i class="fa-regular fa-credit-card  px-2"></i>Payments</a></li>
                                 <li><a href=""><i class="fa-solid fa-user  px-2"></i>Log In</a></li>
-                                <li><select id="country" name="country">
-                                        <option value="volvo">English</option>
-                                        <option value="saab">Francies</option>
-                                        <option value="fiat">Dutch</option>
-                                        <option value="audi">Dutch</option>
-                                    </select></li>
+                                <li>
+                                    <div class="dropdown">
+                                        <a class="  " id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false"><span><img
+                                                src="./img/langauge/french.png" width="20px" height="14px"
+                                                alt=""></span>
+                                            <span>English</span></button>
+                                            <ul class="dropdown-menu  ">
+                                        </a>
+                                <li>
+                                    <a class="dropdown-item px-0" href="#"><span><img
+                                                src="./img/langauge/english.jpg" width="20px" height="15px"
+                                                alt=""></span> <span>English</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item px-0" href="#"><span ><img src="./img/langauge/french.png"  width="20px" height="15px" alt=""></span>
+                                        <span>French</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item px-0" href="#"><span ><img src="./img/langauge/uk.jpg"  width="20px" height="15px" alt=""></span>
+                                        <span>Spanich</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item px-0" href="#"><span ><img src="./img/langauge/us.png"  width="20px" height="15px" alt=""></span>
+                                        <span>Arabic</span></a>
+                                </li>
                             </ul>
                         </div>
+                        </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
+        </div>
         <!-- ==============Tophead section End=================== -->
 
         <!-- ==================Navbar section star================= -->
-         <nav class="navbar navbar-expand-lg bg-white ">
+        <nav class="navbar navbar-expand-lg bg-white ">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><img src="./img/removals_logo.png" alt=""></a>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
@@ -66,14 +89,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
-                        <li class="nav-item">
-                            <a class="nav-link active text-dark" aria-current="page" href="index.html">HOME</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active text-dark" aria-current="page" href="">HOME</a>
+                        </li>
+                        <li class="nav-item  " onclick="ags()" >
+                            <a class="nav-link choosing-ags text-dark" href="#"> CHOOSING AGS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark " href="#">CHOOSING AGS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark " href="#">OUR SERVICES</a>
+                            <a class="nav-link text-dark  " onclick="agsservice()" href="#">OUR SERVICES</a>
                         </li>
                         </li>
                         <li class="nav-item">
@@ -101,14 +124,218 @@
                     </form>
                 </div>
             </div>
-        </nav> 
+        </nav>
+
         <!-- ==================Navbar section end=================== -->
     </header>
+    <!-- ==============Choosing AGS============ -->
+    <div id="main-ags">
+        <div class="agsmenu ">
+            <button class="cross" onclick="crossnone()"><i
+                    class="fa-regular text-white fa-circle-xmark fs-4"></i></button>
+            <div class="container  pb-5">
+                <div class="row justify-content-space-between">
+                    <div class="col-md-8 left-ags-section  .col-lg-10">
+                        <div class="border-section">
+                            <h6><a href="">WHY CHOOSE US</a></h6>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3  ">
+                                <div class="ags-img text-center">
+                                    <img src="./img/choosiingags/our-global-network-ags (1).png" alt="">
+                                </div>
+                                <p class="text-center  pt-2"> <a href="">Our global <br> network</a></p>
+                            </div>
+                            <div class="col-md-3  ">
+                                <div class="ags-img text-center">
+                                    <img src="./img/choosiingags/ags-moving-towards-future-about-us-dropdown-menu.png"
+                                        alt="">
+                                </div>
+                                <p class="text-center pt-2"><a href="">Moving towards <br> the future</a></p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="ags-img text-center">
+                                    <img src="./img/choosiingags/quality-accreditations-ags.png" alt="">
+                                </div>
+                                <p class="text-center pt-2"> <a href="">Quality & <br> accreditation</a></p>
+                            </div>
+                            <div class="col-md-3 pb-3">
+                                <div class="ags-img text-center">
+                                    <img src="./img/choosiingags/excellence-of-our-staff-ags.png" alt="">
+                                </div>
+                                <p class="text-center  pt-2"> <a href="">The excellence <br> of our staff</a></p>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="ags-img text-center">
+                                    <img src="./img/choosiingags/your-satisfaction-ags.png" alt="">
+                                </div>
+                                <p class="text-center  pt-2"><a href="">Your satisfaction</a></p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="ags-img text-center">
+                                    <img src="./img/choosiingags/security-ags.png" alt="">
+                                </div>
+                                <p class="text-center  pt-2"> <a href="">Security</a></p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="ags-img text-center">
+                                    <img src="./img/choosiingags/1-move-1-tree-ags.png" alt="">
+                                </div>
+                                <p class="text-center  pt-2"> <a href="">Planete Urgence</a></p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="ags-img text-center">
+                                    <img src="./img/choosiingags/compliance-ags.png" alt="">
+                                </div>
+                                <p class="text-center  pt-2"><a href="">Complainces</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- right section -->
+                    <div class="col-md-4 right-ags-section .col-lg-6  px-5">
+                        <div class="border-section">
+                            <h6><a href="">ABOUT AGS WORLDWIDE MOVERS</a></h6>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-7">
+                                <ul class="list-unstyled">
+                                    <li><a href="">Mission statement</a></li>
+                                    <li><a href="">Our success story</a></li>
+                                    <li><a href="">Our values and commitment</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="border-section">
+                                <h6><a href="">ABOUT AGS WORLDWIDE MOVERS</a></h6>
+                            </div>
+                            <div class="col-md-7 ">
+                                <ul class="list-unstyled">
+                                    <li><a href="">Training</a></li>
+                                    <li><a href="">Our people</a></li>
+                                    <li><a href="">Our environment</a></li>
+                                    <li><a href="">Health and safety</a></li>
+                                    <li><a href="">Carbon Footprint</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==============AGS SERVICES============= -->
+    <div id="main-ags-service">
+        <div class="agsmenu agsmenu1">
+            <button class="cross" onclick="crossbtn()"><i
+                    class="fa-regular text-white fa-circle-xmark fs-4"></i></button>
+            <div class="container  ">
+                <div class="row justify-content-space-between">
+                    <div class="col-md-7 left-ags-section  .col-lg-10">
+                        <div class="border-section">
+                            <h6><a href="">OUR CORE SERVICES</a></h6>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3  ">
+                                <div class="ags-img text-center">
+                                    <img src="./img/services/ags-international-move-75x75.png" alt="">
+                                </div>
+                                <p class="text-center  pt-2"> <a href="">International Moves</a></p>
+                            </div>
+                            <div class="col-md-3  ">
+                                <div class="ags-img text-center">
+                                    <img src="./img/services/ags-national-move-75x75.png" alt="">
+                                </div>
+                                <p class="text-center pt-2"><a href="">Domestic Moves</a></p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="ags-img text-center">
+                                    <img src="./img/services/ags-secure-storage-75x75.png" alt="">
+                                </div>
+                                <p class="text-center pt-2"> <a href="">Secure storage</a></p>
+                            </div>
+                            <div class="col-md-3 pb-3">
+                                <div class="ags-img text-center">
+                                    <img src="./img/services/ags-vehicle-transfer-75x75.png" alt="">
+                                </div>
+                                <p class="text-center  pt-2"> <a href="">Vehicle transport</a></p>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="border-section">
+                                    <h6><a href="">OUR COMPLEMENTORY SERVICES</a></h6>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="text-center  pt-2"><a href="">All-risk insurance <br> Consolidated
+                                            moves</a></p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="text-center  pt-2"> <a href="">Fine art <br> moving with pets</a></p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="text-center  pt-2"> <a href="">Online tool <br> professional packing</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="text-center  pt-2"><a href="">Shipping parcel <br> virtual visits</a></p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- right section -->
+                    <div class="col-md-5 right-ags-section right-service .col-lg-6  px-5">
+                        <div class="border-section">
+                            <h6><a href="">OUR CORPORATE SERVICES</a></h6>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="ags-img text-center">
+                                    <img src="./img/services/ags-office-moves-75x75.png" alt="">
+                                </div>
+                                <p class="text-center  pt-2"><a href="">Office Moves</a></p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="ags-img text-center">
+                                    <img src="./img/services/ags-hospitality-75x75.png" alt="">
+                                </div>
+                                <p class="text-center  pt-2"><a href="">Hospitality Management</a></p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="ags-img text-center">
+                                    <img src="./img/services/ags-movers-general-cargo (1).png" alt="">
+                                </div>
+                                <p class="text-center  pt-2"><a href="">General Cargo Logistic Services</a></p>
+                            </div>
+                            <div class="row">
+                                <div class="border-section">
+                                    <h6><a href="">MOVING TIPS</a></h6>
+                                </div>
+                                <ul class="list-unstyled pb-0">
+                                    <li><a href="">Moving to Canada from France: Tips & resources</a></li>
+                                    <li><a href="">Moving to France from UK: Tips & resources</a></li>
+                                    <li><a href="">How to pack your interbox move</a></li>
+                                    <li><a href="">30 tips for your international move</a></li>
+                                    <li><a href="">Top 10 moving tips</a></li>
+                                    <li><a href="">Moviing with children</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- =================Header Section end================ -->
 
 
     <!--=================== Slider Section Start==============-->
-     <section class="Banner">
+    <section class="Banner">
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -149,7 +376,7 @@
                     </div>
                 </div>
             </div>
-           
+
         </div>
     </section>
 
@@ -157,7 +384,7 @@
 
 
     <!-- ============International removal section starts =================-->
-     <section class="international_removal">
+    <section class="international_removal">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 interbox d-block mx-auto text-center ">
@@ -170,19 +397,19 @@
                 </div>
             </div>
         </div>
-    </section> 
+    </section>
     <!-- ============International removal section end ===========================-->
 
 
     <!-- ================ Indivisual Corporation section start ====================-->
-     <section class="indivisual_corporation">
+    <section class="indivisual_corporation">
         <div class="container py-5">
             <div class="row ">
                 <div class="col-md-6">
                     <div class="card border-0 shadow"
                         style=" border-right: 1px dotted rgb(122, 122, 122); border-top: none; border-bottom: none; border-left: none;">
                         <img src="./img/ags-movers-individual-move-1.jpg" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
+                        <div class="card-body corporation">
                             <p class="card-text text-justify pb-2"><span class="fw-bold">Let us help you prepare for a
                                     smooth and successful move.</span> Whether you
                                 are moving from Africa to Asia or from England to the USA, we accompany you from
@@ -211,7 +438,7 @@
                 </div>
             </div>
         </div>
-    </section> 
+    </section>
     <!-- ================== Indivisual Corporation section end ====================-->
 
     <!-- ======================Domestic section start ==================================-->

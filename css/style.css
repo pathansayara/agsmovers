@@ -61,6 +61,17 @@ header .tophead .leftgroup ul li a.active::before {
     border-bottom: 0px solid #fff;
     border-top: 28px solid transparent;
 }
+header .tophead .leftgroup ul li a.active::after {
+    content: "";
+    top: 0px;
+    width: 0;
+    height: 0;
+    left: 100%;
+    position: absolute;
+    border-top: 28px solid #fff;
+    border-right: 15px solid transparent;
+    border-bottom: 0px solid transparent;
+}
 
 /* Active class code end */
 header .tophead .leftgroup ul li a:hover {
@@ -71,19 +82,29 @@ header .tophead .rightgroup ul li {
     margin: 0px 15px;
 }
 
-header .tophead .rightgroup ul li select {
+header .tophead .rightgroup ul li .dropdown {
+    padding: 2px 0;
     background-color: #34313a;
     border: none;
     color: #fff;
     font-size: 13px;
 }
+header .tophead .rightgroup ul li .dropdown .dropdown-menu{
+ background-color: #34313a;;   
+}
 
+header .tophead .rightgroup ul li .dropdown:hover .dropdown-menu{
+   display: block;  
+   }
 /* Top head section end */
 
 /* Navbar section starts*/
 .navbar-nav .nav-item .nav-link {
     font-size: 0.8rem;
     margin: 0rem 1rem;
+    font-weight: 700;
+    
+   
 }
 
 .navbar-nav form button {
@@ -95,6 +116,63 @@ header .tophead .rightgroup ul li select {
     padding: 6px;
 }
 
+/* megamenu section start */
+#main-ags{
+    display: none;
+}
+#main-ags-service{display: none;}
+.agsmenu {
+   
+    background-color:#34313a;
+    color: #fff;
+    position: fixed;
+    top: 120px;
+    width: 100%;
+    z-index: 10001;
+    display: block;
+    padding: 30px;
+    height: 470px;  
+   
+}
+.navbar-nav .dropdown:hover .main-ags{
+  display: block;
+}
+.agsmenu .cross{
+   background-color: #34313a;
+    margin-left: 95%;
+    border: none;
+}
+
+
+.agsmenu a{
+    color: rgb(209, 208, 208);
+    font-size: 14px;
+}
+.agsmenu a:hover{
+    color: #fff;
+    transition: 0.3s ;
+    margin-left: 7px;
+}
+.agsmenu h6 a{
+    color: #fff;
+}
+.agsmenu hr{
+    color: white;
+  }
+  .agsmenu .ags-img img:hover{
+    transform: scale(1.06);
+  }
+  .border-section{
+    border-bottom: 1px solid #fff;
+    margin-bottom: 13px;
+    padding-bottom: 13px;
+  }
+  m
+/* serivces section */
+#main-ags-service{
+    display: none;
+}
+/* megamenu section end */
 /* Navbar section ends*/
 
 /* Slider Section Start */

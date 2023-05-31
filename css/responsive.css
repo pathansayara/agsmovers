@@ -1,5 +1,79 @@
 /* Media Query section start */
 
+/* megamenu section start */
+@media (max-width:989px) {
+    .agsmenu{
+        width: 100%;
+        height: 530px;  
+    }
+    .agsmenu .right-ags-section{
+        display: none;
+       
+    }
+    .agsmenu .left-ags-section{
+       
+        width: 100%;
+    }
+}
+@media (max-width:762px) {
+   
+    .agsmenu .left-ags-section .col-md-3{
+        display: flex;
+        width: 25%;
+        flex-direction: column;
+    }
+}
+@media(max-width:548px){
+    .agsmenu .left-ags-section .col-md-3{
+        padding: 0px 0px;
+    }
+@media (max-width:400px) {
+    .agsmenu{
+        width: 100%;
+        height: 480px;
+         
+    }
+    .agsmenu .left-ags-section .col-md-3 img{
+        width: 45px;
+      }
+      .agsmenu .left-ags-section .col-md-3 p a{
+        font-size: 10px;
+      }
+}
+}
+/* Serivcessection */
+@media (min-width:991px) and (max-width:1200px) {
+    .agsmenu1{
+       height: 500px;
+         
+    }
+    .right-service .col-md-4{
+     padding-bottom: 2px;
+     
+    }
+    .right-service ul{
+        padding-bottom: 20px !important;
+    }
+}
+/* megamenu section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and(max-width: 1022px) {
     header .tophead {
@@ -11,9 +85,12 @@
     }
 
 }
-@media (max-width:994px) {
-    
-}
+@media (max-width:993px) {
+    .navbar-nav .nav-item .nav-link{
+       display: none;
+    }
+    }
+
 /* banner */
 @media (max-width:992px){
     .Banner{
@@ -45,6 +122,19 @@
         padding: 0.6rem 1rem !important;
     }
 }
+
+@media (max-width:991px){
+    .indivisual_corporation .corporation .request_btn{
+       
+        padding: 10px 5px;
+    }
+}
+@media (max-width:351px){
+    .indivisual_corporation .corporation .request_btn{
+        padding: 10px 3px;
+    }
+}
+
 /* counter section */
 @media  (max-width:768px){
     .counter-block {
@@ -91,7 +181,7 @@
        display: block;
        padding: 10px 5px;
        margin-top: 10px;
-        background-color: yellow;
+        
     }
 }
 /* Media Query section end */
