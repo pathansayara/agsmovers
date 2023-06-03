@@ -74,7 +74,23 @@ header .tophead .leftgroup ul li a.active::after {
 }
 
 /* Active class code end */
-header .tophead .leftgroup ul li a:hover {
+/* **************Contact drodown********** */
+.navbar-nav .dropdown .dropdown-menu{
+    border: none;
+    background-color: #34313a;
+    display: none;
+    
+}
+.navbar-nav .dropdown:hover .dropdown-menu{
+    display: block;
+}
+.navbar-nav .dropdown .dropdown-menu .dropdown-item{
+    color: #fff;
+}
+.navbar-nav .dropdown .dropdown-menu .dropdown-item:hover{
+    color:#34313a;
+}
+/* header .tophead .leftgroup ul li a:hover {
     text-decoration: underline;
 }
 
@@ -88,14 +104,14 @@ header .tophead .rightgroup ul li .dropdown {
     border: none;
     color: #fff;
     font-size: 13px;
-}
-header .tophead .rightgroup ul li .dropdown .dropdown-menu{
- background-color: #34313a;;   
+} */
+/* header .tophead .rightgroup ul li .dropdown .dropdown-menu{
+ background-color: #34313a;;  
 }
 
 header .tophead .rightgroup ul li .dropdown:hover .dropdown-menu{
    display: block;  
-   }
+   } */
 /* Top head section end */
 
 /* Navbar section starts*/
@@ -263,6 +279,13 @@ header .tophead .rightgroup ul li .dropdown:hover .dropdown-menu{
 
 
 /* Individual corporation section start */
+.indivisual_corporation .card img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.indivisual_corporation .card:hover{
+    overflow: hidden;
+}
 .our_services_btn{
     padding: 0.6rem;
     color: rgb(165, 4, 4);
@@ -292,7 +315,7 @@ header .tophead .rightgroup ul li .dropdown:hover .dropdown-menu{
 }
 
 /* .indivisual_corporation .card img:hover {
-    transition: 5s;
+   
     transform: scale(1.2);
 } */
 
@@ -410,3 +433,143 @@ header .tophead .rightgroup ul li .dropdown:hover .dropdown-menu{
     background-color: #fff;
 }
 /* footer section */
+
+
+
+/*******************Our Network******************************** */
+#global-network .background-img{
+   background: url(../img/our-network/Network-pano-full-partner-2019-en.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 70vh;
+}
+/* ***************************Link section******************************* */
+#link-section h5 a{
+    color:  rgb(158, 4, 4);
+    font-weight: 600;
+}
+#link-section h5{
+    padding-top: 15px;
+}
+
+#link-section ul li a{
+    color: #34313a;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#link-section ul li a:hover{
+    color:  rgb(158, 4, 4);
+}
+
+
+/* ************************News section********************************** */
+#news-section .news-backgound{
+    background: url(../img/our-network/News_1600X500-7-1-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#card-section .date-sec{
+    position: absolute;
+    display: block;
+    margin-top: 30px;
+    width: 30%;
+    height: 7vh;
+    margin-left: -15px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;}
+#card-section .date-sec h3{
+    font-weight: 900;
+    text-align: center;
+    color: #89898a;
+}
+#card-section .date-sec h3 sub{
+    font-size: 16px;
+    color:  rgb(158, 4, 4);
+}
+#card-section .card{
+    height: 96vh;
+}
+#card-section .card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#card-section .card img{
+    padding: 15px;
+}
+#card-section .card h5 a{
+    color:  rgb(158, 4, 4);
+    font-weight: 600;
+}
+#card-section .card h5 a:hover{
+    color: rgb(34, 34, 80);
+}
+#card-section .card p span a{
+    color: rgb(158, 4, 4) ;
+}
+#card-section .card small{
+    font-size: small;
+}
+#card-section .card small a{
+    color: rgb(158, 4, 4);
+}
+#card-section .card small a:hover{
+    color: rgb(34, 34, 80);
+}
+#card-section .load-more-btn{
+    display: block;
+    border: 1px solid  rgb(158, 4, 4);
+    width: 12%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    color:  rgb(158, 4, 4);
+    font-weight: 800;
+
+}
+
+#card-section .load-more-btn:hover{
+    background-color: rgb(158, 4, 4 );
+    color: white;
+}
+
+
+
+/* *************************Contact Section***************************************** */
+#contact-section .contact-img{
+    background: url(../img/contact/tw-ladies-our-mission.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.formbackground{
+    background-color: rgb(232, 232, 233);
+}
+#contact-section textarea{
+    height: 460px;
+}
+
+#contact-details .col-md-6 input:focus{
+   outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

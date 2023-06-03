@@ -1,4 +1,22 @@
 /* Media Query section start */
+/* tophead */
+@media (max-width:992px) {
+    .tophead{
+        display: none;
+    }
+   
+    /* domestic section */
+    #domestic .col-md-2 img{
+            width: 100%;
+        }
+      
+   
+}
+@media (max-width:768px) {
+    #domestic .col-md-2 img{
+        width: 50%;
+    }
+}
 
 /* megamenu section start */
 @media (max-width:989px) {
@@ -56,24 +74,6 @@
     }
 }
 /* megamenu section end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and(max-width: 1022px) {
     header .tophead {
@@ -185,3 +185,88 @@
     }
 }
 /* Media Query section end */
+
+/* News section */
+@media (max-width:1197px) {
+    #card-section .col-md-4  {
+      width: 32%;
+     display: flex;
+     overflow: hidden;
+    }   
+   
+}
+@media (max-width:992px) {
+    #card-section .card{
+        height: 86vh;
+       
+    }
+    #card-section .date-sec{
+        height: 5vh;
+    }
+    #card-section .date-sec  h3{
+        font-size: 16px;
+    }
+    #card-section .date-sec  h3 sub{ 
+        font-size: 12px;
+       
+      
+    }
+    #card-section .col-md-4  {
+        width: 33%;
+       display: flex;
+       overflow: hidden;
+    }
+    #card-section .card h5{
+        font-size: 16px;
+    }
+    #card-section .card p {
+        font-size: 12px;
+    }
+}
+
+@media  (max-width:768px){
+    #card-section .date-sec{
+        height: 3vh;
+       }
+       #card-section .date-sec  h3{
+        font-size: 14px;
+    }
+    #card-section .date-sec  h3 sub{ 
+        font-size: 10px;
+}
+#card-section .load-more-btn{
+    width: 30%;
+}
+
+}
+@media (max-width:475px) {
+    #card-section .card h5{
+        font-size: 14px;
+    }
+    #card-section .card p {
+        font-size: 10px;
+    }   
+    #card-section .card small{
+        font-size: 10px;
+    }
+    #card-section .date-sec{
+        width: 38%;
+}
+   
+/* **************************Contact page****************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
