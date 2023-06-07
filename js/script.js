@@ -8,15 +8,29 @@
 
 // Mega menu
 function ags(){
-  document.getElementById("main-ags").style.display="block";
+ let click= document.getElementById("main-ags");
+ if(click.style.display=="none"){
+    click.style.display= "block";
+ }
+ else{
+    click.style.display = "none";
+ }
 
 
 }
 function agsservice(){
-    document.getElementById("main-ags-service").style.display="block";
+    let click= document.getElementById("main-ags-service");
+ if(click.style.display=="none"){
+    click.style.display= "block";
+ }
+ else{
+    click.style.display = "none";
+ }
+
+
+}
   
   
-  }
 function crossnone(){
     document.getElementById("main-ags").style.display="none";
 }
