@@ -86,9 +86,11 @@ header .tophead .leftgroup ul li a.active::after {
 }
 .navbar-nav .dropdown .dropdown-menu .dropdown-item{
     color: #fff;
+  
 }
 .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover{
     color:#34313a;
+    
 }
 /* header .tophead .leftgroup ul li a:hover {
     text-decoration: underline;
@@ -105,13 +107,13 @@ header .tophead .rightgroup ul li .dropdown {
     color: #fff;
     font-size: 13px;
 } */
-/* header .tophead .rightgroup ul li .dropdown .dropdown-menu{
+header .tophead .rightgroup ul li .dropdown .dropdown-menu{
  background-color: #34313a;;  
 }
 
 header .tophead .rightgroup ul li .dropdown:hover .dropdown-menu{
    display: block;  
-   } */
+   }
 /* Top head section end */
 
 /* Navbar section starts*/
