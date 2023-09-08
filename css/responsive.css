@@ -1,0 +1,41 @@
+/* Navbar */
+
+@media (min-width:992px) and (max-width:1198px) {
+    .navbar .navbar-nav .nav-item .nav-link{
+        font-size: 0.8rem;      
+    }
+    
+}
+
+@media (max-width:992px) {
+    header .tophead{
+        display: none;
+    }
+}
+
+@media (max-width:268px) {
+    .navbar .navbar-brand img{
+        width: 150px;
+    }   
+}
+
+/* Carousel */
+
+
+@media (max-width:900px) {
+    .carousel-inner .carousel-item .carousel-caption {
+        bottom: 10rem;
+    }
+}
+
+@media (max-width:998px) {
+    .carousel-dark .carousel-indicators [data-bs-target]{
+        display: none;
+    } 
+}
+
+
+
+
+
+

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- bootstrap cdn -->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+          crossorigin="anonymous"
+        />
+        <!-- Fontawsome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <title>Ags MOvers</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/responsive.css">
+      </head>
+<body>
+    <header class="fixed-top">
+        <div class="tophead">
+          <div class="container">
+            <div class="row">
+              <div class="d-flex justify-content-between">
+                <div class="leftgroup">
+                  <ul class="list-unstyled d-flex">
+                    <li><a href="">AGS Group</a></li>
+                    <li><a href="">Relocation</a></li>
+                    <li><a href="">Records Management</a></li>
+                    <li><a href="" class="active">Worldwide Movers</a></li>
+                  </ul>
+                </div>
+                <div class="rightgroup">
+                  <ul class="list-unstyled d-flex">
+                      <li><a href=""><i class="fa-regular fa-handshake px-2"></i>Careers</a></li>
+                      <li><a href=""><i class="fa-regular fa-credit-card  px-2"></i>Payments</a></li>
+                      <li><a href=""><i class="fa-solid fa-user  px-2"></i>Log In</a></li>  
+                      <!-- <li><a href=""><img src="./img/Flags/en.svg" alt="">English</a></li>    -->
+                      <li>
+                          <div class="dropdown">
+                              <button class=" btn-sm dropdown-toggle text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <a href="" class="px-3"><img src="./img/Flags/en.svg" class="px-2" alt="">English</a>
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><img src="./img/Flags/fr.svg" class="px-2" alt="">Français</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="./img/Flags/de.svg" class="px-2" alt="">Dutch</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="./img/Flags/de.svg" class="px-2" alt="">Deutch</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="./img/Flags/fl.svg" class="px-2" alt="">Dutch</a></li>
+                              </ul>
+                            </div>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!-- Navbar  -->
+    
+      <nav class="navbar navbar-expand-lg bg-white shadow ">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="./img/removals_logo.png" width="250" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="ags()" href="#">CHOOSING AGS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="agsservice()" href="#">OUR SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Network.html">OUR NETWORK</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="News.html">NEWS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html">CONTACT</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <button class="btn btn-outline-success px-4 " type="submit"><i class="fa-regular fa-pen-to-square"></i>GET A QUOTE</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+     </header>
+    
+      <!-- ==============Choosing AGS============ -->
+      <div id="main-ags">
+          <div class="agsmenu ">
+              <button class="cross" onclick="crossnone()"><i
+                      class="fa-regular text-white fa-circle-xmark fs-4"></i></button>
+              <div class="container  pb-5">
+                  <div class="row justify-content-space-between">
+                      <div class="col-md-8 left-ags-section  .col-lg-10">
+                          <div class="border-section">
+                              <h6><a href="">WHY CHOOSE US</a></h6>
+                          </div>
+    
+                          <div class="row">
+                              <div class="col-md-3  ">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/1-move-1-tree-ags.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"> <a href="">Our global <br> network</a></p>
+                              </div>
+                              <div class="col-md-3  ">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/ags-moving-towards-future-about-us-dropdown-menu.png"
+                                          alt="">
+                                  </div>
+                                  <p class="text-center pt-2"><a href="">Moving towards <br> the future</a></p>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/compliance-ags.png" alt="">
+                                  </div>
+                                  <p class="text-center pt-2"> <a href="">Quality & <br> accreditation</a></p>
+                              </div>
+                              <div class="col-md-3 pb-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/excellence-of-our-staff-ags.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"> <a href="">The excellence <br> of our staff</a></p>
+                              </div>
+    
+                              <div class="col-md-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/your-satisfaction-ags.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"><a href="">Your satisfaction</a></p>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/security-ags.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"> <a href="">Security</a></p>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/quality-accreditations-ags.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"> <a href="">Planete Urgence</a></p>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/our-global-network-ags.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"><a href="">Complainces</a></p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- right section -->
+                      <div class="col-md-4 right-ags-section .col-lg-6  px-5">
+                          <div class="border-section">
+                              <h6><a href="">ABOUT AGS WORLDWIDE MOVERS</a></h6>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-7">
+                                  <ul class="list-unstyled">
+                                      <li><a href="">Mission statement</a></li>
+                                      <li><a href="">Our success story</a></li>
+                                      <li><a href="">Our values and commitment</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="row pt-4">
+                              <div class="border-section">
+                                  <h6><a href="">ABOUT AGS WORLDWIDE MOVERS</a></h6>
+                              </div>
+                              <div class="col-md-7 ">
+                                  <ul class="list-unstyled">
+                                      <li><a href="">Training</a></li>
+                                      <li><a href="">Our people</a></li>
+                                      <li><a href="">Our environment</a></li>
+                                      <li><a href="">Health and safety</a></li>
+                                      <li><a href="">Carbon Footprint</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    
+      <!-- ==============AGS SERVICES============= -->
+      <div id="main-ags-service">
+          <div class="agsmenu agsmenu1">
+              <button class="cross" onclick="crossbtn()"><i
+                      class="fa-regular text-white fa-circle-xmark fs-4"></i></button>
+              <div class="container  ">
+                  <div class="row justify-content-space-between">
+                      <div class="col-md-7 left-ags-section  .col-lg-10">
+                          <div class="border-section">
+                              <h6><a href="">OUR CORE SERVICES</a></h6>
+                          </div>
+    
+                          <div class="row">
+                              <div class="col-md-3  ">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Our-services/core-services/ags-international-move-75x75.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"> <a href="">International Moves</a></p>
+                              </div>
+                              <div class="col-md-3  ">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Our-services/core-services/ags-national-move-75x75.png" alt="">
+                                  </div>
+                                  <p class="text-center pt-2"><a href="">Domestic Moves</a></p>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Our-services/core-services/ags-secure-storage-75x75.png" alt="">
+                                  </div>
+                                  <p class="text-center pt-2"> <a href="">Secure storage</a></p>
+                              </div>
+                              <div class="col-md-3 pb-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Our-services/core-services/ags-vehicle-transfer-75x75.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"> <a href="">Vehicle transport</a></p>
+                              </div>
+    
+    
+                              <div class="row">
+                                  <div class="border-section">
+                                      <h6><a href="">OUR COMPLEMENTORY SERVICES</a></h6>
+                                  </div>
+                                  <div class="col-md-3">
+                                      <p class="text-center  pt-2"><a href="">All-risk insurance <br> Consolidated
+                                              moves</a></p>
+                                  </div>
+                                  <div class="col-md-3">
+                                      <p class="text-center  pt-2"> <a href="">Fine art <br> moving with pets</a></p>
+                                  </div>
+                                  <div class="col-md-3">
+                                      <p class="text-center  pt-2"> <a href="">Online tool <br> professional packing</a>
+                                      </p>
+                                  </div>
+                                  <div class="col-md-3">
+                                      <p class="text-center  pt-2"><a href="">Shipping parcel <br> virtual visits</a></p>
+                                  </div>
+    
+                              </div>
+                          </div>
+                      </div>
+                      <!-- right section -->
+                      <div class="col-md-5 right-ags-section right-service .col-lg-6  px-5">
+                          <div class="border-section">
+                              <h6><a href="">OUR CORPORATE SERVICES</a></h6>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Our-services/corporate-service/ags-hospitality-75x75.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"><a href="">Office Moves</a></p>
+                              </div>
+                              <div class="col-md-4">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Our-services/corporate-service/ags-movers-general-cargo.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"><a href="">Hospitality Management</a></p>
+                              </div>
+                              <div class="col-md-4">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Our-services/corporate-service/ags-office-moves-75x75.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"><a href="">General Cargo Logistic Services</a></p>
+                              </div>
+                              <div class="row">
+                                  <div class="border-section">
+                                      <h6><a href="">MOVING TIPS</a></h6>
+                                  </div>
+                                  <ul class="list-unstyled pb-0">
+                                      <li><a href="">Moving to Canada from France: Tips & resources</a></li>
+                                      <li><a href="">Moving to France from UK: Tips & resources</a></li>
+                                      <li><a href="">How to pack your interbox move</a></li>
+                                      <li><a href="">30 tips for your international move</a></li>
+                                      <li><a href="">Top 10 moving tips</a></li>
+                                      <li><a href="">Moviing with children</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    
+
+      <!-- ======================News Section start=================== -->
+    <section id="news-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="news-backgound"></div>
+                <div class="col-md-10 interbox d-block mx-auto text-center ">
+                    <h1 class="text-danger py-4">NEWS</h1>
+                    <p class="fw-bold mx-5 text-center">Everything AGS: events, moving tips and advice, projects, the
+                        success of our
+                        teams worldwide, <br>
+                        network news, etc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- ====================Card section start=============== -->
+     <section id="card-section">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-4 ">
+                    <div class="card  " style="width: 21rem;">
+                        <img src="./img/News-img/african-masks-representing-cameroons-culture-300x174.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="date-sec">
+                            <h3>26 <sub>MAY</sub></h3>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">Moving to Oman from the UK: A
+                                    Comprehensive guide for Expats</a></h5>
+                            <p class="card-text text-justify">Moving to Oman from the UK can be an exciting and
+                                enriching experience,
+                                but to get the most out of your time in the Sultanate, it’s important to be
+                                well-prepared. In this guide, we explore the key aspects of relocating to Oman,
+                                including visa requirements, employment opportunities, the cost of living, international
+                                schools, and culture. <br><span> <a href="">[...]Read more</a></span></p>
+                            <small>Posted in: <a href="">Corporate News,Helpful Resource France</a></small>
+                            <small>Tags(s): <a href="">France, London, Oman, paris,UK</a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 21rem;">
+                        <img src="./img/News-img/ags-eco-project-300x174.jpg" class="card-img-top" alt="...">
+                        <div class="date-sec">
+                            <h3>23 <sub>MAY</sub></h3>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">AGS Transports 260 Items of Cameroon's Cultural Heritage
+                                    to Paris</a></h5>
+                            <p class="card-text text-justify">Destined for the Quai Branly museum, the ceremonial seats,
+                                wooden carvings and masks formed the mainstay of an exhibition titled, “On the trail of
+                                the chiefdoms of Cameroon. From the visible to the invisible" (Sur la route des
+                                chefferies du Cameroun. Du visible à l’invisible). <br><span> <a href="">[...]Read
+                                        more</a></span></p>
+                            <small>Posted in: <a href="">Africa, Corporate News</a></small>
+                            <small>Tags(s): <a href="">Cameroon , Duala</a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 21rem;">
+                        <img src="./img/News-img/ags-supports-making-bangkok-greener-300x174.jpg" class="card-img-top" alt="...">
+                        <div class="date-sec">
+                            <h3>22 <sub>MAY</sub></h3>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">Top 5 Swiss Cities for British Expacts to Live In</a></h5>
+                            <p class="card-text text-justify">Located in the heart of Europe, Switzerland is a small,
+                                landlocked, mountainous country with a population of 8.7 million people (EUROSTAT 2022).
+                                <br><span> <a href="">[...]Read
+                                        more</a></span>
+                            </p>
+                            <small>Posted in: <a href="">Corporate News,Helpful Resource France</a></small>
+                            <small>Tags(s): <a href="">London, Paris, Switzerland</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between py-4">
+                <div class="col-md-4 ">
+                    <div class="card  " style="width: 21rem;">
+                        <img src="./img/News-img/algiers-capital-of-algeria-300x174.jpg" class="card-img-top" alt="...">
+                        <div class="date-sec">
+                            <h3>26 <sub>APR</sub></h3>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">AGS Algeria becomes the 40th AGS branch to get FAIM
+                                    certified</a></h5>
+                            <p class="card-text text-justify"> Securing its place as a leading international removals
+                                company, AGS Algeria has received their FAIM Quality Certification. <br><span> <a
+                                        href="">[...]Read more</a></span></p>
+                            <small>Posted in: <a href="">Corporate News</a></small> <br>
+                            <small>Tags(s): <a href="">Algeria</a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 21rem;">
+                        <img src="./img/News-img/demenager-en-suisse-300x174.jpg" class="card-img-top" alt="...">
+                        <div class="date-sec">
+                            <h3>06<sub>APR</sub></h3>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">8 Things to Know Before Moving to Dubai from the UK</a>
+                            </h5>
+                            <p class="card-text text-justify">Dubai's strong economy, tax-free status and low crime rate
+                                make it an attractive location for many British expatriates. But if you are considering
+                                moving there, you should know that daily life in the City of Gold might not be what
+                                you’d expect. Fortunately, we’ve compiled a list of things you should know before your
+                                move to Dubai from the UK.<br><span> <a href="">[...]Read
+                                        more</a></span></p>
+                            <small>Posted in: <a href=""> Corporate News,Helpful Resource France</a></small>
+                            <small>Tags(s): <a href="">Dubai, London,UK</a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 21rem;">
+                        <img src="./img/News-img/international-move-checklist-300x174.jpg" class="card-img-top" alt="...">
+                        <div class="date-sec">
+                            <h3>23 <sub>MAR</sub></h3>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">AGS Congo joins forces with Samu Social Pointe Noire</a>
+                            </h5>
+                            <p class="card-text text-justify">Last December, the AGS team in the Republic of Congo
+                                participated in a Christmas street campaign for the first time in support of Samu Social
+                                in Pointe Noire. Here is a look back at an emotional experience.
+                                <br><span> <a href="">[...]Read
+                                        more</a></span>
+                            </p>
+                            <small>Posted in: <a href="">Corporate News</a></small>
+                            <small>Tags(s): <a href="">Pointe-noire</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between py-4">
+                <div class="col-md-4 ">
+                    <div class="card  " style="width: 21rem;">
+                        <img src="./img/News-img/moving-to-oman-1-300x174.jpg" class="card-img-top" alt="...">
+                        <div class="date-sec">
+                            <h3>17 <sub>MAR</sub></h3>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">6 Things You Need to Know When Moving to Lyon</a></h5>
+                            <p class="card-text text-justify"> Moving to Lyon? Get all the tips you need to successfully
+                                settle, from work permits and international school options, to cost of living and
+                                transportation. <br><span> <a href="">[...]Read more</a></span></p>
+                            <small>Posted in: <a href="">Corporate News</a></small> <br>
+                            <small>Tags(s): <a href="">Lyon</a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 21rem;">
+                        <img src="./img/News-img/moving-to-uk-post-brexit-300x174.jpg" class="card-img-top" alt="...">
+                        <div class="date-sec">
+                            <h3>01<sub>MAR</sub></h3>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">Laos set to become newest node in MOBILITAS Asian network,
+                                    completing its footprint on the Indochinese Peninsula</a>
+                            </h5>
+                            <p class="card-text text-justify">To expand its presence in Asia, the MOBILITAS Group has
+                                announced that preliminary plans are underway to open a new subsidiary in Laos. This
+                                exciting development was revealed by the Chairman of the MOBILITAS Supervisory Board,
+                                Alain Taïeb.<br><span> <a href="">[...]Read
+                                        more</a></span></p>
+                            <small>Posted in: <a href=""> Corporate News</a></small>
+                            <small>Tags(s): <a href=""></a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 21rem;">
+                        <img src="./img/News-img/moving-to-us-from-india-300x174.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="date-sec">
+                            <h3>27 <sub>FEB</sub></h3>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">7000-year-old artefacts escape floods with help from AGS
+                                    Bonaire</a>
+                            </h5>
+                            <p class="card-text text-justify">To protect the collection from flooding, Museum Director
+                                Elena Baker entrusted AGS Bonaire to swiftly pack and secure it five months earlier than
+                                anticipated.
+                                <br><span> <a href="">[...]Read
+                                        more</a></span>
+                            </p>
+                            <small>Posted in: <a href="">Corporate News</a></small>
+                            <small>Tags(s): <a href="">Bonaire</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="load-more-btn mb-5">LOAD MORE</a>
+        </div>
+    </section>
+    <!-- ====================Card section end=============== -->
+
+
+
+
+
+
+
+    
+     <!-- ========================Footer Section start========================== -->
+ <footer id="footer-section">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-3 py-2">
+                <img src="./img/Footer-img/movers-footer-logo.png" width="200px" alt="">
+                <ul class="list-unstyled py-3">
+                    <li><a href=""><i class="fa-solid fa-phone text-white px-3"></i>Contact US</a></li><br>
+                    <li><a href=""><i class="fa-regular fa-handshake  text-white px-3"></i></i>Careers</a></li>
+                </ul>
+                <button class="btn get-c-btn " type="button"><a href="" class="text-white text-decoration-none"><i
+                            class="fa-solid fa-pen-to-square "></i>GET A QUOTE</a></button>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col-md-2 ">
+                <h5>Our Services</h5>
+                <ul class="list-unstyled">
+                    <li><a href="">Interenational Moves</a></li>
+                    <li><a href="">Consolited Moves</a></li>
+                    <li><a href="">Domestic Moves</a></li>
+                    <li><a href="">Secure Storage</a></li>
+                    <li><a href="">Vehicle Transport</a></li>
+                    <li><a href="">Office Moves</a></li>
+                    <li><a href="">Hospitality Management</a></li>
+                    <li><a href="">Fine Art</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h5>Our Network</h5>
+                <ul class="list-unstyled">
+                    <li><a href="">Asia</a></li>
+                    <li><a href="">Africa</a></li>
+                    <li><a href="">Carribean</a></li>
+                    <li><a href="">Europe</a></li>
+                    <li><a href="">Frane</a></li>
+                    <li><a href="">French Overseas Territories</a></li>
+                    <li><a href="">Middle Fast</a></li> <br>
+                    <li><a href="">See all countries</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Recent Posts</h5>
+                <ul class="list-unstyled">
+                    <li><a href="">AGS Transport 260 items of Cameroon's Cultural Heritage to Paris</a></li>
+                    <li><a href="">Top 5 Swiss Cities for British Expats to live in AGS Algeria become a 40th AGS
+                            Branch to get FAIM cerified</a></li>
+                    <li><a href=""></a></li> <br>
+                    <li><img src="./img/Footer-img/ags-global-compact-logo-en.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="back-to-top text-center">
+             <a href="./index.html"> <i class="fa-solid fa-arrow-up "></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white">
+        <div class="row px-5 pt-3 pb-2">
+            <div class="col-md-6">
+                <div class="copyright">
+                    <a href="">Copyright AGS @ 2023</a>
+                </div>
+            </div>
+  
+            <div class="col-md-6">
+                <div class="terms text-end ">
+                    <a href="">Terms of use / privacy policy</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="space"></div>
+        </div>
+    </div>
+  </footer> 
+  <!-- ====================Footer Section end============================ -->
+  
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous" >
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

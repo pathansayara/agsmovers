@@ -1,0 +1,622 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: 'Roboto', sans-serif;    */
+}
+
+/* custom css */
+
+:root{
+    --btn-color:#B00000;
+    --gray-color:#AAAAAA;
+}
+
+
+/* Top head section starts */
+header .tophead {
+    width: 100%;
+    background-color: #34313a;
+    height: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+header .tophead .leftgroup ul li {
+    margin: 0px 20px;
+    color: #fff;
+}
+
+header .tophead ul li a {
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+header .tophead .leftgroup ul li a:hover{
+    text-decoration: underline;
+}
+/* Active class code */
+header .tophead .leftgroup ul li a.active {
+    width: auto;
+    height: auto;
+    color:var(--btn-color);
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    display: inline-block;
+}
+
+
+header .tophead .leftgroup ul li a.active:hover {
+    text-decoration: none;
+}
+
+header .tophead .leftgroup ul li a.active::before {
+    content: "";
+    top: 0px;
+    width: 0;
+    height: 0;
+    right: 100%;
+    position: absolute;
+    border-right: 15px solid #fff;
+    border-bottom: 0px solid #fff;
+    border-top: 28px solid transparent;
+}
+header .tophead .leftgroup ul li a.active::after {
+    content: "";
+    top: 0px;
+    width: 0;
+    height: 0;
+    left: 100%;
+    position: absolute;
+    border-top: 28px solid #fff;
+    border-right: 15px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+
+header .tophead .rightgroup button{
+    background-color: transparent;
+    border: none;
+}
+
+
+header .tophead .rightgroup .dropdown .dropdown-menu{
+    background-color:#34313a;
+    color: white;
+    border: none;
+    display: none;
+}
+
+header .tophead .rightgroup ul li .dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
+/* Navbar */
+.navbar .navbar-nav .nav-item .nav-link{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(53, 52, 52);
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: var(--btn-color);
+}
+
+.navbar form .btn{
+    font-size: 0.9rem;
+    background-color: var(--btn-color);
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+/* Slider Section Start */
+.carousel-inner .carousel-item {
+    height: 500px;
+}
+
+.carousel-inner .carousel-item img {
+    animation: zoomin 20s infinite;
+}
+.navbar .navbar-brand .navbar-toggler .toggle-btn{
+    color: black;
+}
+@keyframes zoomin {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.3);
+    }
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-bottom: 0.8rem;
+}
+
+
+
+.carousel-indicators {
+    bottom: 3rem;
+}
+.carousel .carousel-inner .carousel-item .slider{
+    background-image:linear-gradient(120deg , rgba(255,255,255,0.8) 50%, rgba(0, 0, 0, 0.9))
+    
+}
+
+.carousel .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 70vh;
+}
+
+.find_branch_btn {
+    border: 2px solid rgb(250, 247, 247);
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    background-color: rgb(158, 4, 4);
+    color: #fff;
+    margin: 1rem;
+   
+}
+.find_branch_btn:hover{
+    background-color: rgb(212, 45, 45);
+    color: white;
+    
+}
+.get_btn {
+    border: 2px solid rgb(250, 247, 247);
+    border-radius: 0.5rem;
+    padding: 0.6rem 1.5rem;
+    font-weight: 500;
+    background-color: transparent;
+    color: #fff;
+    
+}
+.get_btn:hover{
+    background-color: rgb(158, 4, 4);
+    color: white;
+}
+
+/* Slider Section End */
+
+/* International removal section start */
+.interbox {
+    min-height: 200px;
+    margin-top: -70px;
+    z-index: 9;
+    background: #fff;
+}
+
+.interbox p {
+    font-size: 17px;
+    color: rgb(32, 32, 32);
+}
+.text-danger{
+    color: rgb(165, 4, 4) !important;
+    
+}
+/* International removal section end */
+
+
+/* megamenu section start */
+#main-ags{
+    display: none;
+}
+#main-ags-service{display: none;}
+.agsmenu {
+   
+    background-color:#34313a;
+    color: #fff;
+    position: fixed;
+    top: 120px;
+    width: 100%;
+    z-index: 10001;
+    display: block;
+    padding: 30px;
+    height: 470px;  
+   
+}
+
+.agsmenu .cross{
+   background-color: #34313a;
+    margin-left: 95%;
+    border: none;
+}
+
+
+.agsmenu a{
+    color: rgb(209, 208, 208);
+    font-size: 14px;
+}
+.agsmenu a:hover{
+    color: #fff;
+    transition: 0.3s ;
+    margin-left: 7px;
+}
+.agsmenu h6 a{
+    color: #fff;
+}
+.agsmenu hr{
+    color: white;
+  }
+  .agsmenu .ags-img img:hover{
+    transform: scale(1.06);
+  }
+  .border-section{
+    border-bottom: 1px solid #fff;
+    margin-bottom: 13px;
+    padding-bottom: 13px;
+  }
+  m
+/* serivces section */
+#main-ags-service{
+    display: none;
+}
+/* megamenu section end */
+
+
+/* Individual corporation section start */
+.indivisual_corporation .card img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.indivisual_corporation .card:hover{
+    overflow: hidden;
+}
+.our_services_btn{
+    padding: 0.6rem;
+    color: rgb(165, 4, 4);
+    font-weight: 500;
+    font-size: 0.9rem;
+    border: 2px solid rgb(165, 4, 4);
+    background-color:transparent;
+}
+.our_services_btn:hover{
+    background-color:rgb(165, 4, 4) ;
+    color: #fff;
+}
+.request_btn{
+    padding: 0.6rem;
+    color:#fff;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border: 2px solid rgb(165, 4, 4);
+    background-color:  rgb(165, 4, 4);
+}
+.request_btn:hover{
+    color: #fff;
+}
+.indivisual_corporation .card-text{
+    font-size: 1rem;
+   
+}
+
+/* .indivisual_corporation .card img:hover {
+   
+    transform: scale(1.2);
+} */
+
+
+/* Individual corporation section end */
+
+/* domstic section */
+
+.domestic img:hover{
+    transform: scale(1.1);
+}
+.domestic-img h6{
+    padding-top: 1.4rem;
+}
+.domestic-img a{
+    font-size: small;
+    color: #949496;
+   
+    
+}
+#domestic{
+ background-color: #34313a;  
+}
+.domestic-text-white{
+    color: #fff;
+}
+ 
+.domestic-text{
+    color: #949496;
+}
+#domestic .domestic-img img:hover{
+  
+  transform: scale(1.06);
+}
+
+
+/* ========World======== */
+#world{
+    background: url(../img/bg-img/removals_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+.free-quote-btn{
+    border: 2px solid rgb(158, 4, 4);
+    background-color:rgb(158, 4, 4);
+    padding: 0.5rem 1.4rem;
+    color: #fff;
+    font-weight: 300;
+}
+.free-quote-btn:hover{
+    background-color: #fff;
+    color: rgb(158, 4, 4);
+    font-weight: 500;
+}
+/* world end */
+
+/* Wolrdwide network starts */
+
+.worlwide-map-img{
+    background: url(../img/bg-img/network-map-ags-movers_1200X700-EN.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.country-btn{
+    border: 2px solid rgb(158, 4, 4);
+    background-color:white;
+    padding: 0.5rem 1.4rem;
+    color:rgb(158, 4, 4);
+    font-weight: 300;
+}
+.country-btn:hover{
+    border: 2px solid rgb(158, 4, 4);
+    background-color:rgb(158, 4, 4);
+    color:#fff;
+    transition: all 0.5s ease-in-out;
+}
+/* Wolrdwide network end*/
+
+
+/* footer section */
+#footer-section{
+    background-color: #3D3A42;
+}
+
+#footer-section ul li{
+    padding-bottom: 0.9rem;
+}
+#footer-section h5{
+    color: #fff;
+}
+#footer-section a{
+    color: #DCDCD2;
+    font-size:14px;
+   
+}
+#footer-section a:hover{
+    text-decoration: underline;
+    color: rgb(199, 198, 198);
+}
+.get-c-btn{
+    background-color: rgb(158, 4, 4);
+    padding: 0.4rem 1.6rem;
+}
+
+.get-c-btn:hover{
+    text-decoration: none;
+    background-color: rgb(158, 4, 4);
+}
+#footer-section .social-icons .fa-facebook-f{
+    color: #fff;
+    font-size: 25px;
+    padding: 2rem 0.5rem;   
+}
+
+#footer-section .social-icons .fa-twitter{
+    color: #fff;
+    font-size: 25px;
+    padding: 2rem 0.5rem;   
+}
+
+#footer-section .social-icons .fa-youtube{
+    color: #fff;
+    font-size: 25px;
+    padding: 2rem 0.5rem;   
+}
+
+#footer-section .social-icons .fa-linkedin{
+    color: #fff;
+    font-size: 25px;
+    padding: 2rem 0.5rem;   
+}
+#footer-section .social-icons .fa-facebook-f:hover{
+   transform: scale(1.08);
+}
+
+#footer-section .social-icons .fa-twitter:hover{
+    transform: scale(1.08);
+ }
+
+ #footer-section .social-icons .fa-youtube:hover{
+    transform: scale(1.08);
+ }
+
+ #footer-section .social-icons .fa-linkedin:hover{
+    transform: scale(1.08);
+ }
+
+ #footer-section .back-to-top .fa-arrow-up{
+   color: var(--btn-color);
+    margin-top: 1rem;
+    font-size: 2rem;
+ }
+
+ #footer-section .back-to-top {
+   border: 1px solid var(--btn-color);
+   margin-left: 70rem;
+   margin-bottom: 0.4rem;
+   height: 70px;
+   width: 70px;
+   background-color: #DCDCDC;
+   border-radius: 50%;
+ }
+.space{
+    width: 100%;
+    height: 2vh;
+    background-color: #fff;
+}
+/* footer section */
+
+
+/*******************Our Network******************************** */
+#global-network .background-img{
+    background: url(../img/Our-network/network-map-1-1536x480.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+ }
+
+
+/* ***************************Link section******************************* */
+#link-section h5 a{
+    color:  rgb(158, 4, 4);
+    font-weight: 600;
+}
+#link-section h5{
+    padding-top: 15px;
+}
+
+#link-section ul li a{
+    color: #34313a;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#link-section ul li a:hover{
+    color:  rgb(158, 4, 4);
+}
+
+
+/* ************************News section********************************** */
+#news-section .news-backgound{
+    background: url(../img/bg-img/News_1600X500-7-1-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#card-section .date-sec{
+    position: absolute;
+    display: block;
+    margin-top: 30px;
+    width: 30%;
+    height: 7vh;
+    margin-left: -15px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;}
+#card-section .date-sec h3{
+    font-weight: 900;
+    text-align: center;
+    color: #89898a;
+}
+#card-section .date-sec h3 sub{
+    font-size: 16px;
+    color:  rgb(158, 4, 4);
+}
+#card-section .card{
+    height: 96vh;
+}
+#card-section .card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#card-section .card img{
+    padding: 15px;
+}
+#card-section .card h5 a{
+    color:  rgb(158, 4, 4);
+    font-weight: 600;
+}
+#card-section .card h5 a:hover{
+    color: rgb(34, 34, 80);
+}
+#card-section .card p span a{
+    color: rgb(158, 4, 4) ;
+}
+#card-section .card small{
+    font-size: small;
+}
+#card-section .card small a{
+    color: rgb(158, 4, 4);
+}
+#card-section .card small a:hover{
+    color: rgb(34, 34, 80);
+}
+#card-section .load-more-btn{
+    display: block;
+    border: 1px solid  rgb(158, 4, 4);
+    width: 12%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    color:  rgb(158, 4, 4);
+    font-weight: 800;
+
+}
+
+#card-section .load-more-btn:hover{
+    background-color: rgb(158, 4, 4 );
+    color: white;
+}
+
+
+
+/* *************************Contact Section***************************************** */
+#contact-section .contact-img{
+    background: url(../img/bg-img/tw-ladies-our-mission.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.formbackground{
+    background-color: rgb(232, 232, 233);
+}
+#contact-section textarea{
+    height: 460px;
+}
+
+#contact-details .col-md-6 input:focus{
+   outline: none;
+}
+
+
+
+
+

@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- bootstrap cdn -->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+          crossorigin="anonymous"
+        />
+        <!-- Fontawsome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <title>Ags MOvers</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/responsive.css">
+      </head>
+<body>
+    <header class="fixed-top">
+        <div class="tophead">
+          <div class="container">
+            <div class="row">
+              <div class="d-flex justify-content-between">
+                <div class="leftgroup">
+                  <ul class="list-unstyled d-flex">
+                    <li><a href="">AGS Group</a></li>
+                    <li><a href="">Relocation</a></li>
+                    <li><a href="">Records Management</a></li>
+                    <li><a href="" class="active">Worldwide Movers</a></li>
+                  </ul>
+                </div>
+                <div class="rightgroup">
+                  <ul class="list-unstyled d-flex">
+                      <li><a href=""><i class="fa-regular fa-handshake px-2"></i>Careers</a></li>
+                      <li><a href=""><i class="fa-regular fa-credit-card  px-2"></i>Payments</a></li>
+                      <li><a href=""><i class="fa-solid fa-user  px-2"></i>Log In</a></li>  
+                      <!-- <li><a href=""><img src="./img/Flags/en.svg" alt="">English</a></li>    -->
+                      <li>
+                          <div class="dropdown">
+                              <button class=" btn-sm dropdown-toggle text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <a href="" class="px-3"><img src="./img/Flags/en.svg" class="px-2" alt="">English</a>
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><img src="./img/Flags/fr.svg" class="px-2" alt="">Français</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="./img/Flags/de.svg" class="px-2" alt="">Dutch</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="./img/Flags/de.svg" class="px-2" alt="">Deutch</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="./img/Flags/fl.svg" class="px-2" alt="">Dutch</a></li>
+                              </ul>
+                            </div>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!-- Navbar  -->
+    
+      <nav class="navbar navbar-expand-lg bg-white shadow ">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="./img/removals_logo.png" width="250" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="ags()" href="#">CHOOSING AGS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="agsservice()" href="#">OUR SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Network.html">OUR NETWORK</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="News.html">NEWS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html">CONTACT</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <button class="btn btn-outline-success px-4 " type="submit"><i class="fa-regular fa-pen-to-square"></i>GET A QUOTE</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+     </header>
+    
+      <!-- ==============Choosing AGS============ -->
+      <div id="main-ags">
+          <div class="agsmenu ">
+              <button class="cross" onclick="crossnone()"><i
+                      class="fa-regular text-white fa-circle-xmark fs-4"></i></button>
+              <div class="container  pb-5">
+                  <div class="row justify-content-space-between">
+                      <div class="col-md-8 left-ags-section  .col-lg-10">
+                          <div class="border-section">
+                              <h6><a href="">WHY CHOOSE US</a></h6>
+                          </div>
+    
+                          <div class="row">
+                              <div class="col-md-3  ">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/1-move-1-tree-ags.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"> <a href="">Our global <br> network</a></p>
+                              </div>
+                              <div class="col-md-3  ">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/ags-moving-towards-future-about-us-dropdown-menu.png"
+                                          alt="">
+                                  </div>
+                                  <p class="text-center pt-2"><a href="">Moving towards <br> the future</a></p>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/compliance-ags.png" alt="">
+                                  </div>
+                                  <p class="text-center pt-2"> <a href="">Quality & <br> accreditation</a></p>
+                              </div>
+                              <div class="col-md-3 pb-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/excellence-of-our-staff-ags.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"> <a href="">The excellence <br> of our staff</a></p>
+                              </div>
+    
+                              <div class="col-md-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/your-satisfaction-ags.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"><a href="">Your satisfaction</a></p>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/security-ags.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"> <a href="">Security</a></p>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/quality-accreditations-ags.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"> <a href="">Planete Urgence</a></p>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Choosing-ags/our-global-network-ags.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"><a href="">Complainces</a></p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- right section -->
+                      <div class="col-md-4 right-ags-section .col-lg-6  px-5">
+                          <div class="border-section">
+                              <h6><a href="">ABOUT AGS WORLDWIDE MOVERS</a></h6>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-7">
+                                  <ul class="list-unstyled">
+                                      <li><a href="">Mission statement</a></li>
+                                      <li><a href="">Our success story</a></li>
+                                      <li><a href="">Our values and commitment</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="row pt-4">
+                              <div class="border-section">
+                                  <h6><a href="">ABOUT AGS WORLDWIDE MOVERS</a></h6>
+                              </div>
+                              <div class="col-md-7 ">
+                                  <ul class="list-unstyled">
+                                      <li><a href="">Training</a></li>
+                                      <li><a href="">Our people</a></li>
+                                      <li><a href="">Our environment</a></li>
+                                      <li><a href="">Health and safety</a></li>
+                                      <li><a href="">Carbon Footprint</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    
+      <!-- ==============AGS SERVICES============= -->
+      <div id="main-ags-service">
+          <div class="agsmenu agsmenu1">
+              <button class="cross" onclick="crossbtn()"><i
+                      class="fa-regular text-white fa-circle-xmark fs-4"></i></button>
+              <div class="container  ">
+                  <div class="row justify-content-space-between">
+                      <div class="col-md-7 left-ags-section  .col-lg-10">
+                          <div class="border-section">
+                              <h6><a href="">OUR CORE SERVICES</a></h6>
+                          </div>
+    
+                          <div class="row">
+                              <div class="col-md-3  ">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Our-services/core-services/ags-international-move-75x75.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"> <a href="">International Moves</a></p>
+                              </div>
+                              <div class="col-md-3  ">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Our-services/core-services/ags-national-move-75x75.png" alt="">
+                                  </div>
+                                  <p class="text-center pt-2"><a href="">Domestic Moves</a></p>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Our-services/core-services/ags-secure-storage-75x75.png" alt="">
+                                  </div>
+                                  <p class="text-center pt-2"> <a href="">Secure storage</a></p>
+                              </div>
+                              <div class="col-md-3 pb-3">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Our-services/core-services/ags-vehicle-transfer-75x75.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"> <a href="">Vehicle transport</a></p>
+                              </div>
+    
+    
+                              <div class="row">
+                                  <div class="border-section">
+                                      <h6><a href="">OUR COMPLEMENTORY SERVICES</a></h6>
+                                  </div>
+                                  <div class="col-md-3">
+                                      <p class="text-center  pt-2"><a href="">All-risk insurance <br> Consolidated
+                                              moves</a></p>
+                                  </div>
+                                  <div class="col-md-3">
+                                      <p class="text-center  pt-2"> <a href="">Fine art <br> moving with pets</a></p>
+                                  </div>
+                                  <div class="col-md-3">
+                                      <p class="text-center  pt-2"> <a href="">Online tool <br> professional packing</a>
+                                      </p>
+                                  </div>
+                                  <div class="col-md-3">
+                                      <p class="text-center  pt-2"><a href="">Shipping parcel <br> virtual visits</a></p>
+                                  </div>
+    
+                              </div>
+                          </div>
+                      </div>
+                      <!-- right section -->
+                      <div class="col-md-5 right-ags-section right-service .col-lg-6  px-5">
+                          <div class="border-section">
+                              <h6><a href="">OUR CORPORATE SERVICES</a></h6>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Our-services/corporate-service/ags-hospitality-75x75.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"><a href="">Office Moves</a></p>
+                              </div>
+                              <div class="col-md-4">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Our-services/corporate-service/ags-movers-general-cargo.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"><a href="">Hospitality Management</a></p>
+                              </div>
+                              <div class="col-md-4">
+                                  <div class="ags-img text-center">
+                                      <img src="./img/Our-services/corporate-service/ags-office-moves-75x75.png" alt="">
+                                  </div>
+                                  <p class="text-center  pt-2"><a href="">General Cargo Logistic Services</a></p>
+                              </div>
+                              <div class="row">
+                                  <div class="border-section">
+                                      <h6><a href="">MOVING TIPS</a></h6>
+                                  </div>
+                                  <ul class="list-unstyled pb-0">
+                                      <li><a href="">Moving to Canada from France: Tips & resources</a></li>
+                                      <li><a href="">Moving to France from UK: Tips & resources</a></li>
+                                      <li><a href="">How to pack your interbox move</a></li>
+                                      <li><a href="">30 tips for your international move</a></li>
+                                      <li><a href="">Top 10 moving tips</a></li>
+                                      <li><a href="">Moviing with children</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    
+     <!-- ===================Contact section start================ -->
+     <section id="contact-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="contact-img"></div>
+                <div class="col-md-10 interbox d-block mx-auto text-center py-3">
+                    <h1 class="text-danger py-3">GENERAL ENQUIRIES</h1>
+                    <p class="fw-bold mx-5 text-center">Please complete the form below to contact us. <br>
+                        An AGS expert will get in touch with you shortly.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ===================Contact section end================ -->
+
+
+    <!-- ============contact details start============== -->
+    <section id="contact-details">
+        <div class="container">
+            <div class="row">
+                <hr>
+                <div class="row py-4">
+                    <h6 class="fw-bold" > Would you like a quotation?</h6>
+                    <p>Please provide more details of your move by <a href="" style="color:  rgb(158, 4, 4 );">clicking here.</a> </p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="pt-5">YOUR DETAILS</h5>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control formbackground" placeholder="First Name *">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control formbackground" placeholder="Surame *">
+                                </div>
+                            </div>
+                            <div class="row pt-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control formbackground" placeholder="Email *">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control formbackground" placeholder="Phone *">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Select an option -->
+                        <div class="row pt-5">
+                            <h5>SELECT A LOCATION</h5>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <select id="disabledSelect" class="form-select formbackground">
+                                            <option>Select a location</option>
+                                            <option data-id="1" value="AF">Afghanistan</option>
+                                            <option data-id="2" value="AL">Albania</option>
+                                            <option data-id="3" value="AL">Algeria</option>
+                                            <option data-id="4" value="AS">American Samoa</option>
+                                            <option data-id="5" value="AN">Andorra</option>
+                                            <option data-id="6" value="AN">Angola</option>
+                                            <option data-id="7" value="AG">Anguilla</option>
+                                            <option data-id="8" value="AB">Antigua and Barbuda</option>
+                                            <option data-id="9" value="AR">Argentina</option>
+                                            <option data-id="10" value="AR">Argentina</option>
+                                            <option data-id="11" value="AM">Armenia</option>
+                                            <option data-id="12" value="AW">Aruba</option>
+                                            <option data-id="13" value="AU">Australia</option>
+                                            <option data-id="14" value="AT">Austria</option>
+                                            <option data-id="15" value="AZ">Azerbaijan</option>
+                                            <option data-id="249" value="ZO">Azores</option>
+                                            <option data-id="16" value="BS">Bahamas</option>
+                                            <option data-id="17" value="BH">Bahrain</option>
+                                            <option data-id="18" value="BD">Bangladesh</option>
+                                            <option data-id="19" value="BB">Barbados</option>
+                                            <option data-id="20" value="BY">Belarus</option>
+                                            <option data-id="21" value="BE">Belgium</option>
+                                            <option data-id="22" value="BZ">Belize</option>
+                                            <option data-id="23" value="BJ">Benin</option>
+                                            <option data-id="24" value="BM">Bermuda</option>
+                                            <option data-id="25" value="BT">Bhutan</option>
+                                            <option data-id="26" value="BO">Bolivia</option>
+                                            <option data-id="260" value="BQ">Bonaire</option>
+                                            <option data-id="27" value="BA">Bosnia and Herzegovina</option>
+                                            <option data-id="28" value="BW">Botswana</option>
+                                            <option data-id="29" value="BV">Bouvet Island</option>
+                                            <option data-id="30" value="BR">Brazil</option>
+                                            <option data-id="31" value="IO">British Indian Ocean Territory</option>
+                                            <option data-id="32" value="BN">Brunei</option>
+                                            <option data-id="33" value="BG">Bulgaria</option>
+                                            <option data-id="34" value="BF">Burkina Faso</option>
+                                            <option data-id="35" value="BI">Burundi</option>
+                                            <option data-id="36" value="KH">Cambodia</option>
+                                            <option data-id="37" value="CM">Cameroon</option>
+                                            <option data-id="38" value="CA">Canada</option>
+                                            <option data-id="39" value="IC">Canary Islands</option>
+                                            <option data-id="40" value="CV">Cape Verde</option>
+                                            <option data-id="41" value="KY">Cayman Islands</option>
+                                            <option data-id="42" value="CF">Central African Republic</option>
+                                            <option data-id="43" value="TD">Chad</option>
+                                            <option data-id="44" value="CL">Chile</option>
+                                            <option data-id="45" value="CN">China (People's Republic)</option>
+                                            <option data-id="46" value="CX">Christmas Island</option>
+                                            <option data-id="47" value="CC">Cocos (Keeling) Islands</option>
+                                            <option data-id="48" value="CO">Colombia</option>
+                                            <option data-id="49" value="KM">Comoros</option>
+                                            <option data-id="50" value="CG">Congo</option>
+                                            <option data-id="51" value="CD">Congo, the Democratic Republic of the
+                                            </option>
+                                            <option data-id="52" value="CK">Cook Islands</option>
+                                            <option data-id="53" value="CR">Costa Rica</option>
+                                            <option data-id="54" value="HR">Croatia</option>
+                                            <option data-id="55" value="CU">Cuba</option>
+                                            <option data-id="56" value="CW">Curacao</option>
+                                            <option data-id="57" value="CY">Cyprus</option>
+                                            <option data-id="58" value="CZ">Czech Republic</option>
+                                            <option data-id="59" value="DK">Denmark</option>
+                                            <option data-id="60" value="DJ">Djibouti</option>
+                                            <option data-id="61" value="DM">Dominica</option>
+                                            <option data-id="62" value="DO">Dominican Republic</option>
+                                            <option data-id="63" value="EC">Ecuador</option>
+                                            <option data-id="66" value="EG">Egypt</option>
+                                            <option data-id="67" value="SV">El Salvador</option>
+                                            <option data-id="250" value="GQ">Equatorial Guinea</option>
+                                            <option data-id="68" value="ER">Eritrea</option>
+                                            <option data-id="64" value="EE">Estonia</option>
+                                            <option data-id="65" value="ET">Ethiopia</option>
+                                            <option data-id="69" value="FK">Falkland Islands (Malvinas)</option>
+                                            <option data-id="70" value="FO">Faroe Islands</option>
+                                            <option data-id="71" value="FJ">Fiji</option>
+                                            <option data-id="72" value="FI">Finland</option>
+                                            <option data-id="73" value="FR">France</option>
+                                            <option data-id="75" value="GF">French Guiana</option>
+                                            <option data-id="76" value="PF">French Polynesia</option>
+                                            <option data-id="78" value="GA">Gabon</option>
+                                            <option data-id="79" value="GM">Gambia</option>
+                                            <option data-id="80" value="GE">Georgia</option>
+                                            <option data-id="81" value="DE">Germany</option>
+                                            <option data-id="82" value="GH">Ghana</option>
+                                            <option data-id="83" value="GI">Gibraltar</option>
+                                            <option data-id="84" value="GR">Greece</option>
+                                            <option data-id="85" value="GL">Greenland</option>
+                                            <option data-id="86" value="GD">Grenada</option>
+                                            <option data-id="87" value="GP">Guadeloupe</option>
+                                            <option data-id="88" value="GU">Guam</option>
+                                            <option data-id="89" value="GT">Guatemala</option>
+                                            <option data-id="264" value="GG">Guernsey</option>
+                                            <option data-id="90" value="GN">Guinea</option>
+                                            <option data-id="91" value="GW">Guinea-Bissau</option>
+                                            <option data-id="92" value="GY">Guyana</option>
+                                            <option data-id="93" value="HT">Haiti</option>
+                                            <option data-id="94" value="HM">Heard and Mc Donald Islands</option>
+                                            <option data-id="95" value="VA">Holy See (Vatican City State)</option>
+                                            <option data-id="96" value="HN">Honduras</option>
+                                            <option data-id="97" value="HK">Hong Kong</option>
+                                            <option data-id="98" value="HU">Hungary</option>
+                                            <option data-id="99" value="IS">Iceland</option>
+                                            <option data-id="100" value="IN">India</option>
+                                            <option data-id="101" value="ID">Indonesia</option>
+                                            <option data-id="102" value="IR">Iran (Islamic Republic of)</option>
+                                            <option data-id="103" value="IQ">Iraq</option>
+                                            <option data-id="104" value="IE">Ireland</option>
+                                            <option data-id="265" value="IM">Isle of Man</option>
+                                            <option data-id="105" value="IL">Israel</option>
+                                            <option data-id="106" value="IT">Italy</option>
+                                            <option data-id="107" value="CI">Ivory Coast</option>
+                                            <option data-id="108" value="JM">Jamaica</option>
+                                            <option data-id="109" value="JP">Japan</option>
+                                            <option data-id="268" value="JE">Jersey</option>
+                                            <option data-id="267" value="JE">Jersey</option>
+                                            <option data-id="110" value="JO">Jordan</option>
+                                            <option data-id="111" value="KZ">Kazakhstan</option>
+                                            <option data-id="112" value="KE">Kenya</option>
+                                            <option data-id="113" value="KI">Kiribati</option>
+                                            <option data-id="116" value="XK">Kosovo</option>
+                                            <option data-id="117" value="KW">Kuwait</option>
+                                            <option data-id="118" value="KG">Kyrgyzstan</option>
+                                            <option data-id="119" value="LA">Lao People's Democratic Republic</option>
+                                            <option data-id="120" value="LV">Latvia</option>
+                                            <option data-id="121" value="LB">Lebanon</option>
+                                            <option data-id="122" value="LS">Lesotho</option>
+                                            <option data-id="123" value="LR">Liberia</option>
+                                            <option data-id="124" value="LY">Libya</option>
+                                            <option data-id="125" value="LI">Liechtenstein</option>
+                                            <option data-id="126" value="LT">Lithuania</option>
+                                            <option data-id="127" value="LU">Luxembourg</option>
+                                            <option data-id="128" value="MO">Macau</option>
+                                            <option data-id="129" value="MK">Macedonia</option>
+                                            <option data-id="130" value="MG">Madagascar</option>
+                                            <option data-id="131" value="MW">Malawi</option>
+                                            <option data-id="132" value="MY">Malaysia</option>
+                                            <option data-id="133" value="MV">Maldives</option>
+                                            <option data-id="134" value="ML">Mali</option>
+                                            <option data-id="135" value="MT">Malta</option>
+                                            <option data-id="136" value="MH">Marshall Islands</option>
+                                            <option data-id="137" value="MQ">Martinique</option>
+                                            <option data-id="138" value="MR">Mauritania</option>
+                                            <option data-id="139" value="MU">Mauritius</option>
+                                            <option data-id="140" value="YT">Mayotte</option>
+                                            <option data-id="141" value="MX">Mexico</option>
+                                            <option data-id="142" value="FM">Micronesia, Federated States</option>
+                                            <option data-id="143" value="MD">Moldova, Republic of</option>
+                                            <option data-id="144" value="MC">Monaco</option>
+                                            <option data-id="145" value="MN">Mongolia</option>
+                                            <option data-id="256" value="ME">Montenegro</option>
+                                            <option data-id="146" value="MS">Montserrat</option>
+                                            <option data-id="147" value="MA">Morocco</option>
+                                            <option data-id="148" value="MZ">Mozambique</option>
+                                            <option data-id="149" value="MM">Myanmar</option>
+                                            <option data-id="150" value="NA">Namibia</option>
+                                            <option data-id="151" value="NR">Nauru</option>
+                                            <option data-id="152" value="NP">Nepal</option>
+                                            <option data-id="214" value="NL">Netherlands</option>
+                                            <option data-id="153" value="AN">Netherlands Antilles</option>
+                                            <option data-id="154" value="NC">New Caledonia</option>
+                                            <option data-id="155" value="NZ">New Zealand</option>
+                                            <option data-id="156" value="NI">Nicaragua</option>
+                                            <option data-id="157" value="NE">Niger</option>
+                                            <option data-id="158" value="NG">Nigeria</option>
+                                            <option data-id="159" value="NU">Niue</option>
+                                            <option data-id="160" value="NF">Norfolk Island</option>
+                                            <option data-id="114" value="KP">North Korea Democratic People's Rep
+                                            </option>
+                                            <option data-id="161" value="MP">Northern Mariana Islands</option>
+                                            <option data-id="162" value="NO">Norway</option>
+                                            <option data-id="163" value="OM">Oman</option>
+                                            <option data-id="164" value="PK">Pakistan</option>
+                                            <option data-id="165" value="PW">Palau</option>
+                                            <option data-id="167" value="PA">Panama</option>
+                                            <option data-id="168" value="PG">Papua New Guinea</option>
+                                            <option data-id="169" value="PY">Paraguay</option>
+                                            <option data-id="170" value="PE">Peru</option>
+                                            <option data-id="171" value="PH">Philippines</option>
+                                            <option data-id="172" value="PN">Pitcairn</option>
+                                            <option data-id="173" value="PL">Poland</option>
+                                            <option data-id="174" value="PT">Portugal</option>
+                                            <option data-id="175" value="PR">Puerto Rico</option>
+                                            <option data-id="176" value="QA">Qatar</option>
+                                            <option data-id="177" value="RE">Reunion</option>
+                                            <option data-id="178" value="RO">Romania</option>
+                                            <option data-id="179" value="RU">Russian Federation</option>
+                                            <option data-id="180" value="RW">Rwanda</option>
+                                            <option data-id="261" value="BQ-SA">Saba</option>
+                                            <option data-id="181" value="KN">Saint Kitts and Nevis</option>
+                                            <option data-id="182" value="LC">Saint Lucia</option>
+                                            <option data-id="186" value="MF">Saint Martin</option>
+                                            <option data-id="183" value="VC">Saint Vincent and the Grenadines</option>
+                                            <option data-id="185" value="WS">Samoa</option>
+                                            <option data-id="266" value="SM">San Marino</option>
+                                            <option data-id="187" value="ST">Sao Tome and Principe</option>
+                                            <option data-id="188" value="SA">Saudi Arabia</option>
+                                            <option data-id="257" value="99">Scotland</option>
+                                            <option data-id="189" value="SN">Senegal</option>
+                                            <option data-id="252" value="RS">Serbia</option>
+                                            <option data-id="190" value="SC">Seychelles</option>
+                                            <option data-id="191" value="SL">Sierra Leone</option>
+                                            <option data-id="192" value="SG">Singapore</option>
+                                            <option data-id="193" value="SK">Slovakia (Slovak Republic)</option>
+                                            <option data-id="194" value="SI">Slovenia</option>
+                                            <option data-id="195" value="SB">Solomon Islands</option>
+                                            <option data-id="196" value="SO">Somalia</option>
+                                            <option data-id="197" value="ZA">South Africa</option>
+                                            <option data-id="198" value="GS">South Georgia and the South Sandwich
+                                                Islands</option>
+                                            <option data-id="115" value="KR">South Korea Republic of</option>
+                                            <option data-id="259" value="SS">South Sudan</option>
+                                            <option data-id="199" value="ES">Spain</option>
+                                            <option data-id="200" value="LK">Sri Lanka</option>
+                                            <option data-id="262" value="BL">St Barthelemy</option>
+                                            <option data-id="263" value="BQ-SE">St Eustatius</option>
+                                            <option data-id="201" value="SH">St. Helena</option>
+                                            <option data-id="202" value="PM">St. Pierre and Miquelon</option>
+                                            <option data-id="203" value="SD">Sudan</option>
+                                            <option data-id="204" value="SR">Surinam</option>
+                                            <option data-id="205" value="SJ">Svalbard and Jan Mayen Islands</option>
+                                            <option data-id="206" value="SZ">Swaziland</option>
+                                            <option data-id="207" value="SE">Sweden</option>
+                                            <option data-id="208" value="CH">Switzerland</option>
+                                            <option data-id="209" value="SY">Syrian Arab Republic</option>
+                                            <option data-id="247" value="TW">Taiwan</option>
+                                            <option data-id="211" value="TJ">Tajikistan</option>
+                                            <option data-id="248" value="TZ">Tanzania</option>
+                                            <option data-id="213" value="TH">Thailand</option>
+                                            <option data-id="215" value="TP">Timor</option>
+                                            <option data-id="216" value="TG">Togo</option>
+                                            <option data-id="217" value="TK">Tokelau</option>
+                                            <option data-id="218" value="TO">Tonga</option>
+                                            <option data-id="219" value="TT">Trinidad and Tobago</option>
+                                            <option data-id="220" value="TN">Tunisia</option>
+                                            <option data-id="221" value="TR">Turkey</option>
+                                            <option data-id="222" value="TM">Turkmenistan</option>
+                                            <option data-id="223" value="TC">Turks and Caicos Islands</option>
+                                            <option data-id="224" value="TV">Tuvalu</option>
+                                            <option data-id="225" value="UG">Uganda</option>
+                                            <option data-id="226" value="UA">Ukraine</option>
+                                            <option data-id="227" value="AE">United Arab Emirates</option>
+                                            <option data-id="228" value="GB">United Kingdom</option>
+                                            <option data-id="229" value="US">United States</option>
+                                            <option data-id="230" value="UM">United States minor outlying islands
+                                            </option>
+                                            <option data-id="231" value="UY">Uruguay</option>
+                                            <option data-id="232" value="UZ">Uzbekistan</option>
+                                            <option data-id="233" value="VU">Vanuatu</option>
+                                            <option data-id="234" value="VE">Venezuela</option>
+                                            <option data-id="235" value="VN">Vietnam</option>
+                                            <option data-id="236" value="VG">Virgin Islands (British)</option>
+                                            <option data-id="237" value="VI">Virgin Islands (U.S.)</option>
+                                            <option data-id="258" value="99-W">Wales</option>
+                                            <option data-id="238" value="WF">Wallis and Futuna Islands</option>
+                                            <option data-id="240" value="YE">Yemen</option>
+                                            <option data-id="242" value="ZM">Zambia</option>
+                                            <option data-id="243" value="ZW">Zimbabwe</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-5">
+                            <div class="col-md-6">
+                                <h5>YOUR MESSAGE</h5>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control formbackground"
+                                            placeholder="Your Message">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-md-6">
+                            <textarea class="form-control formbackground" rows="10" placeholder=" Message"></textarea>
+                            <div class="form-check pt-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    I would like to receive AGS newsletters and notices.
+                                </label>
+                            </div>
+                            <div class="form-check pt-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    I have read and I accept the <a href="" style="color:  rgb(158, 4, 4 );">GDPR
+                                        privacy policy</a> for the site.
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row py-5">
+                            <div class="col-md-6 captcha">
+                                <form method="POST">
+                                    <div class="g-recaptcha" data-sitekey="6LeKMOMnAAAAANCQ7WmAiuhtR_cgdyF2oD6_OQex">
+                                    </div>
+                                    <br />
+                                    <a href=""
+                                        style="background-color: rgb(158, 4, 4 ); color: white; padding:10px 20px;">Submit</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- ============contact details end============== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <!-- ========================Footer Section start========================== -->
+ <footer id="footer-section">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-3 py-2">
+                <img src="./img/Footer-img/movers-footer-logo.png" width="200px" alt="">
+                <ul class="list-unstyled py-3">
+                    <li><a href=""><i class="fa-solid fa-phone text-white px-3"></i>Contact US</a></li><br>
+                    <li><a href=""><i class="fa-regular fa-handshake  text-white px-3"></i></i>Careers</a></li>
+                </ul>
+                <button class="btn get-c-btn " type="button"><a href="" class="text-white text-decoration-none"><i
+                            class="fa-solid fa-pen-to-square "></i>GET A QUOTE</a></button>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col-md-2 ">
+                <h5>Our Services</h5>
+                <ul class="list-unstyled">
+                    <li><a href="">Interenational Moves</a></li>
+                    <li><a href="">Consolited Moves</a></li>
+                    <li><a href="">Domestic Moves</a></li>
+                    <li><a href="">Secure Storage</a></li>
+                    <li><a href="">Vehicle Transport</a></li>
+                    <li><a href="">Office Moves</a></li>
+                    <li><a href="">Hospitality Management</a></li>
+                    <li><a href="">Fine Art</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h5>Our Network</h5>
+                <ul class="list-unstyled">
+                    <li><a href="">Asia</a></li>
+                    <li><a href="">Africa</a></li>
+                    <li><a href="">Carribean</a></li>
+                    <li><a href="">Europe</a></li>
+                    <li><a href="">Frane</a></li>
+                    <li><a href="">French Overseas Territories</a></li>
+                    <li><a href="">Middle Fast</a></li> <br>
+                    <li><a href="">See all countries</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Recent Posts</h5>
+                <ul class="list-unstyled">
+                    <li><a href="">AGS Transport 260 items of Cameroon's Cultural Heritage to Paris</a></li>
+                    <li><a href="">Top 5 Swiss Cities for British Expats to live in AGS Algeria become a 40th AGS
+                            Branch to get FAIM cerified</a></li>
+                    <li><a href=""></a></li> <br>
+                    <li><img src="./img/Footer-img/ags-global-compact-logo-en.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="back-to-top text-center">
+             <a href="./index.html"> <i class="fa-solid fa-arrow-up "></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white">
+        <div class="row px-5 pt-3 pb-2">
+            <div class="col-md-6">
+                <div class="copyright">
+                    <a href="">Copyright AGS @ 2023</a>
+                </div>
+            </div>
+  
+            <div class="col-md-6">
+                <div class="terms text-end ">
+                    <a href="">Terms of use / privacy policy</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="space"></div>
+        </div>
+    </div>
+  </footer> 
+  <!-- ====================Footer Section end============================ -->
+  
+
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous" >
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
